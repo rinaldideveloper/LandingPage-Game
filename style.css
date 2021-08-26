@@ -1,0 +1,29 @@
+/* Halaman Awal */
+#main{
+  text-align: center;
+  background: url('./assets/bg1.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20%;
+  color: aliceblue;
+}
+
+#main h1 {
+  font-size: 50pt;  
+}
+.scroll-down{
+  margin-bottom: 0;
+  padding-top: 20%;
+  color: white;
+  
+}
+.btn-warning{
+  width: 260.36px;  
+  height: 60px;
+  top: 428.7px;
+  Left :588px;
+  border-radius: 4px;
+}
+
+
