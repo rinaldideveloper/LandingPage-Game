@@ -9,12 +9,13 @@
   color: aliceblue;
 }
 
+
 #main h1 {
   font-size: 50pt;  
 }
 .scroll-down{
   margin-bottom: 0;
-  padding-top: 20%;
+  padding-top: 23%;
   color: white;
   
 }
@@ -23,7 +24,17 @@
   height: 60px;
   top: 428.7px;
   Left :588px;
+  font-weight: bold;
   border-radius: 4px;
 }
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+  background: #0009;
+  font-weight: bold;
+  width: 100%;
+  position: fixed;  
+
+}
+
 
 
