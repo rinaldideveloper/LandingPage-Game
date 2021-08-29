@@ -1,40 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+
+
 /* Halaman Awal */
-#main{
+#main {
   text-align: center;
-  background: url('./assets/bg1.png');
+  background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%),  url("./assets/bg1.png");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 20%;
+  padding-top: 18%;
+  border: none;
   color: aliceblue;
 }
 
 
 #main h1 {
-  font-size: 50pt;  
+  font-size: 50pt;
 }
-.scroll-down{
+.scroll-down {
   margin-bottom: 0;
-  padding-top: 23%;
+  padding-top: 20%;
   color: white;
-  
 }
-.btn-warning{
-  width: 260.36px;  
+.btn-warning {
+  width: 260.36px;
   height: 60px;
   top: 428.7px;
-  Left :588px;
+  left: 588px;
   font-weight: bold;
   border-radius: 4px;
 }
 .navbar {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #0009;
   font-weight: bold;
   width: 100%;
-  position: fixed;  
-
+  position: fixed;
 }
 
 
 
+
+/* Halaman Galery */
+#galery {
+  text-align: start;
+  border: none;
+  margin-top: -35px;
+  
+  background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%),url("./assets/the-games-bg.jpg");
+  height: 100%;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20%;  
+  color: aliceblue;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+
+}
+.about-title{
+  margin-top: -50px;
+}
+
+
+
+/* Halaman Features */
+#features {
+  text-align: start;
+  margin-top: -35px;
+  
+  background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%),url("./assets/features.jpg");
+  height: 100%;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20%;  
+  color: aliceblue;
+}
+
+
+
+/* Halaman System Req */
+#system {
+  text-align: center;
+  margin-top: -35px;
+
+  background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%),url("./assets/requirements.png");
+  height: 100%;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 145px;  
+  font-weight: 14px;
+  color: aliceblue;
+}
+#system h3{
+  font-family: Arial;;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+.table-bordered{
+  margin-top: 40px;
+  
+}
+
+.row-cols-2 h1{
+  margin-top: 55px;
+  text-align: start;
+  font-size: 56px;
+}
+.table-bordered h4{
+  color: #FFB548;
+}
+.table-bordered p{
+  color: white;
+}
