@@ -20,7 +20,9 @@
     <!-- Membuat navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
         <div class="container">
-            <a class="navbar-brand ml-4" href="#">LOGO</a>
+            <a class="navbar-brand ml-4" href="#">
+                <img src="./assets/logo.png" style="width: 50px; height: 50px;" alt="Logo">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,10 +32,10 @@
             <div class="col-lg d-flex ml-lg-5">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="navbar-nav">
-                        <a class="nav-link ml-lg-3" href="#">HOME<span class="sr-only">(current)</span></a>
-                        <a class="nav-link ml-lg-3" href="">WORK</a>
-                        <a class="nav-link ml-lg-3" href="">CONTACT</a>
-                        <a class="nav-link ml-lg-3" href="">ABOUT ME</a>
+                        <a class="nav-link ml-lg-3" href="#main">HOME<span class="sr-only">(current)</span></a>
+                        <a class="nav-link ml-lg-3" href="#features">WORK</a>
+                        <a class="nav-link ml-lg-3" href="#subscribe">CONTACT</a>
+                        <a class="nav-link ml-lg-3" href="#system">ABOUT ME</a>
                     </div>
                     </ul>
                 </div>
@@ -58,7 +60,9 @@
         <div class="scroll-down">
             <a href="">
                 <b>
-                    <p style="color:white">THE STORY</p>
+                    <p style="color:white">
+                        <a href="#galery" style="color:white">THE STORY</a>
+                    </p>
                 </b>
                 <img src="./assets/scroll down.svg" alt="">
             </a>
@@ -111,12 +115,12 @@
     <div class="layer" id="features">
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-6 col-md-4 ml-auto">
+                <div class="col-6 col-md-4 ml-auto"></div>
                     <div class="about-features">
                         <h3 style="font-size: 24px;">What's so special?</h3>
                         <h1 style="margin-bottom: 71px;">FEATURES</h1>
                         <h4 style="color:#FFB548;">TRADITIONAL GAMES</h4>
-                        <p style="margin-left: 50px;">
+                        <p>
                             If you miss your chilhood, we provide many traditional games here
                         </p>
                         <h4 style="color:#FFB548;">GAME SUIT</h4>
@@ -289,7 +293,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md ml-auto">
+                <div class="col-md">
                     <div class="navbawah">
                         <ul>
                             <li><a href="">MAIN</a></li>
@@ -297,28 +301,29 @@
                             <li><a href="">GAME FEATURES</a></li>
                             <li><a href="">SYSTEM REQUIREMENTS</a></li>
                             <li><a href="">QUOTES</a></li>
-                            <!-- <li>
-                                 <img src="assets/facebook.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/twitter.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/Vector.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/twitch.svg" alt="">
-                            </li> -->
+                            <a href="">
+                                <img src="assets/facebook.svg" style="margin-left: 260px;" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/twitter.svg" style="margin-left: 30px;" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/Vector.svg" style="margin-left: 30px;" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/twitch.svg" style="margin-left: 30px;" alt="">     
+                            </a>                
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 float-end">
+                <hr>
+                <!-- <div class="col-md-4 mt-3 float-end">
                     <img src="assets/facebook.svg" alt="">
                     <img src="assets/twitter.svg" alt="">
                     <img src="assets/Vector.svg" alt="">
                     <img src="assets/twitch.svg" alt="">
 
-                </div>
+                </div> -->
 
             </div>
             <hr>
@@ -326,7 +331,8 @@
                 <div class="col-md-6 ml-auto" style="color: #FFFFFF; margin-left: -100px;"><span>© 2018 Your Games, Inc.
                         All Rights Reserved</span></div>
                 <div class="col-md-6 text-center mr-auto">
-                    <div class="navbawah2">
+                    <div class="navbawah2" style="
+                    margin-left: 130px;">
                         <ul>
                             <li><a href="">POLICY |</a></li>
                             <li><a href="">TERMS OF SERVICES |</a></li>

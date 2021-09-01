@@ -2,7 +2,18 @@
 
 
 /* Set Font */
-
+h1{
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+}
+h2{
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+}
+h3{
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+}
 
 /* Halaman Awal */
 #main {
@@ -28,8 +39,8 @@
 .btn-warning {
   width: 260.36px;
   height: 60px;
-  top: 428.7px;
   left: 588px;
+  text-align: center;
   font-weight: bold;
   border-radius: 4px;
 }
@@ -72,13 +83,13 @@
 /* Halaman Features */
 #features {
   text-align: start;
-  margin-top: -35px;
+  margin-top: -15px;
   
   background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%),url("./assets/features.jpg");
   height: 100%;  
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 20%;  
+  padding-top: 10%;  
   color: aliceblue;
 }
 
@@ -233,4 +244,29 @@ footer hr {
 .tombolbawah{
   width: 200px;
  
+}
+hr {
+  border: 10px;
+  height: 1px;
+  background-color: #333; /* Modern Browsers */
+}
+
+/* Responsif Layar */
+@media (min-width: 450px){
+  /* h1{
+    font-size: 3em;
+    font-weight: bold;
+  }
+  h2{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  h3{
+    font-size: 1em;
+    font-weight: bold;
+  } */
+  #main{
+    padding-top: 18%;
+    height: auto;
+  }
 }
