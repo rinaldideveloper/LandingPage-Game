@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 
 
+/* Set Font */
+
 
 /* Halaman Awal */
 #main {
@@ -148,4 +150,87 @@
 }
 .justify-content-center h1, p{
   color: white;
+}
+
+#subscribe{
+  color: white;
+  padding-top: 136px;
+  text-align: start;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) ),url("./assets/img4.png");
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
+  background-color: black;
+  width: auto;
+  height: 960px;
+  
+}
+
+/* Footer */
+#newsLetter {
+  padding: 2rem;
+  background-image: url('../assets/image_newsletter.png');
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
+  background-color: #080a0b;
+  height: 100%;
+}
+
+#newsLetter h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+footer {
+  background-color: #080a0b;
+}
+.navbawah ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.navbawah ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbawah ul li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+footer .col-md-5 img {
+  padding: 1rem;
+}
+
+footer hr {
+  margin-top: -10px;
+}
+
+.navbawah2 ul li {
+  display: inline-block;
+}
+
+.navbawah2 ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbawah2 ul li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+.col-md-4 img{
+  margin-left: 20x;
+}
+
+.about-features{
+  margin-top: 150px;
+}
+.form-control{
+  width: 300px;
+  height: 60px;
+}
+.tombolbawah{
+  width: 200px;
+ 
 }
